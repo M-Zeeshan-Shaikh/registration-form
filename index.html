@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <center><img src="./salayni icon.jpg" alt="Image"></center>
+    <h1 style="text-align: center">Saylani Online Acadmy</h1>
+<center>
+    <fieldset style="height: 750px; width: 450px; background-color:rgb(211, 200, 187);">
+
+    <h2 style="text-align: center">Student Registration Form</h2>
+    <form action="./registration.html" method="get" style="text-align: left">
+
+        <p>Name:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;
+            <input type="text" name="name" id="" maxlength="30" minlength="3" placeholder="Name" size="29" required="required">
+
+        </p>
+        <p>Father Name:&ensp;&ensp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="father name" id="" maxlength="40" minlength="5" placeholder="Father Name" size="29" required="required">
+        </p>
+
+        <p>password:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+            <input type="password" name="password" id="" maxlength="20" minlength="8" placeholder="********"size="29" required="required">
+
+        </p>
+        <p style="display:inline; vertical-align: 75px">Adress:</p>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+            <textarea name="address" id="" cols="30" rows="10" placeholder="Enter Adress" required="required"></textarea>
+        
+
+        <p>Gender:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+            <input type="radio" name="gender" id="" value="male" checked="checked">Male
+            <input type="radio" name="gender" id="" value="female">Female
+
+        </p>
+        <p>Language:&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;
+            <input type="checkbox" name="Language1:" id="" value="Urdu" checked="checked">Urdu
+            <input type="checkbox" name="Language2:" id="" value="English">English
+            <input type="checkbox" name="Language3:" id="" value="Arabic">Arabic
+            <input type="checkbox" name="Language4:" id="" value="Chines">Chines
+        </p>
+        <p>DOB:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <input type="date" name="date" id="" required="required">
+
+        </p>
+        <p>Email Id:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+            <input type="email" name="email" id="" placeholder="Email ID" size="29" required="required">
+
+        </p>
+        <p>Mobile Number:&ensp;&nbsp;
+            <input type="number" name="m.no" id="" placeholder="Mobile Number:" required="required">
+
+        </p>
+        <p>City:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;
+            <select name="city" id="">
+                <option value="Select Your City" selected disabled>Select Your City</option>
+                <option value="Hyderabad"> Hyderabad</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Quetta">Quetta</option>
+                <option value="Multan">Multan</option>
+                <option value="Peshawar">Peshawar</option>
+            </select>
+
+        </p>
+        <p style="display:inline; vertical-align: 50px">Hobbies:</p>&nbsp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <select name="hobbies" id="" size="6" multiple="multiple">
+                <option value="Cricket" selected="select">Cricket</option>
+                <option value="Fotball" selected="select">Fotball</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Gamming">Gamming</option>
+                <option value="Learning">Learning</option>
+                <option value="Reading">Reading</option>
+            
+            
+            </select>
+            <p>Picture Upload:&ensp;&ensp;&nbsp;
+                <input type="file" name="picture" id="" required="required" multiple accept="image/*">
+                <input type="button" name="picture" value="Upload">
+                
+                
+            </p>
+            <center><p> <a href="file:///C:/z%231/Registration%20Form/registration.html"><input  type="submit" value="Submit Form"></a></p>
+            
+            </center>
+        
+    </form>
+   </fieldset>
+</center>
+
+</body>
+
+</html>
